@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part2.Task10</title>
+    <style>
+div {
+    background-color: rgb(224, 224, 224);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10px;
+    padding: 8px;
+    width: 400px;
+    border-radius: 2px;
+}
+p{
+    display: inline;
+}
+.p {
+    display:inline;
+    width: 15px;
+    margin: 0;
+    position: relative;
+    padding: 5px;
+}
+.text {
+    display: inline;
+}
+.bem {
+    display: inline;
+    padding: 5px;
+}
+.scroll {
+    white-space: nowrap;
+overflow: auto;
+}
+    </style>
+</head>
+<body>
+    <p>Собираем проект:</p><br><br>
+    <div>$bem make</div><br>
+    <p>Первая сборка с <div class="bem">$bem-tools</div> займет некоторое время, так как именно в этот момент в директорию проекта устанавливаются все необходимые npm-пакеты.</p>
+    <p>Для запуска проекта выполняем:</p><br><br>
+    <div>$bem server</div><br>
+    <p>В результате вы увидете следующее сообщение:</p><br><br>
+    <div class="scroll">info: Server is listening on port 8080. Point your browser to http<a href="#">//localhost:8080</a></div><br><br>
+    <p><b>Проблема?</b></p><br><br>
+    <p class="text">Если порт 8080 уже используется другой программой, его можно переназначить с помощью аргумента<div class="p">-p</div>.</p>
+</body>
+</html>
